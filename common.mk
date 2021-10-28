@@ -386,7 +386,7 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service.sm6150-libperfmgr
+    android.hardware.power-service-qti
 
 # QCOM
 PRODUCT_COPY_FILES += \
@@ -442,9 +442,7 @@ PRODUCT_PACKAGES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-	$(LOCAL_PATH) \
-    hardware/google/interfaces \
-    hardware/google/pixel
+	$(LOCAL_PATH)
 
 # Telephony
 PRODUCT_PACKAGES += \
